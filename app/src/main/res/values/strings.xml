@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LotusYogaApp</string>
+    <string-array name="course_categories">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+        <item>VIP</item>
+    </string-array>
+    <string-array name="course_durations">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="course_capacities">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+</resources>

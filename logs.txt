@@ -1,0 +1,9 @@
+Todo List:
+1. Design user interface for home page with 2 buttons: Teachers and Courses
+2. Design UI for create course, RecycleView fragments in one page
+3. Design UI for create teacher, RecycleView fragments in one page
+
+4. Implement CRUD operations for courses
+5. Implement CRUD operations for teachers
+6. Implement search functionality teachers and return courses results
+7. Implement the Synchronization of teachers and courses with the server Firebase

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:id="@+id/activityCreateTeacher"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teachers"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:id="@+id/textTeacher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName"
+        android:padding="10dp"
+        android:text="Name"
+        app:layout_constraintTop_toTopOf="@+id/edtTeacherName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/edtTeacherName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textYearsOfExperience"
+        android:padding="10dp"
+        android:text="Experience"
+        app:layout_constraintTop_toTopOf="@+id/edtYearsOfExperience"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/edtYearsOfExperience"
+        />
+
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:id="@+id/edtTeacherName"
+        android:padding="10dp"
+        android:hint="Teacher Name"
+        app:layout_constraintTop_toBottomOf="@+id/textTeacher"
+        app:layout_constraintStart_toStartOf="@+id/edtYearsOfExperience"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:id="@+id/edtYearsOfExperience"
+        android:padding="10dp"
+        android:hint="Years of Experience"
+        app:layout_constraintTop_toBottomOf="@+id/edtTeacherName"
+        app:layout_constraintStart_toEndOf="@+id/textYearsOfExperience"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtYearsOfExperience"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancel"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+        android:text="Cancel"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toEndOf="@+id/btnSubmit"
+        app:layout_constraintTop_toBottomOf="@+id/edtYearsOfExperience"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
