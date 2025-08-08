@@ -1,4 +1,4 @@
-# LotusYogaApp - Yoga Studio Management System
+# Yoga Admin App
 
 ## 👨‍💻 Author Information
 
