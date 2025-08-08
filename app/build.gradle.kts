@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tranquangdai.lotusyogaapp"
+    namespace = "com.vutranquangminh.lotusyogaapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.tranquangdai.lotusyogaapp"
+        applicationId = "com.vutranquangminh.lotusyogaapp"
         minSdk = 35
         targetSdk = 35
         versionCode = 1
